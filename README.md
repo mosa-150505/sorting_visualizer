@@ -33,7 +33,7 @@ or
 
 
 ## Demo
- <video src="assets/demo.mp4" width="100%" max-width="800px" controls autoplay loop muted plays inline></video>
+![Demo](assets/demo.gif)
 
  ## Acknowledgments
 This project was inspired by [**dipesh-m/Sorting-Visualizer**](https://github.com/dipesh-m/Sorting-Visualizer), originally written in **C++**.
