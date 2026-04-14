@@ -4,8 +4,7 @@
 #include <string.h>
 #include <time.h>
 
-
-#define SCREEN_WIDTH 960
+#define SCREEN_WIDTH 720
 #define SCREEN_HEIGHT 560
 #define ARR_SIZE 130
 #define RECT_SIZE 7
@@ -41,6 +40,7 @@ int init(void)
     {
         printf("Couldn't initialize SDL. SDL_Error: %s\n", SDL_GetError());
         success = 0;
+        return success;
     }
     else
     {
@@ -54,6 +54,7 @@ int init(void)
         {
             printf("Couldn't create window. SDL_Error: %s\n", SDL_GetError());
             success = 0;
+            return success;
         }
         else
         {
@@ -65,6 +66,7 @@ int init(void)
             }
         }
     }
+
     return success;
 }
 
